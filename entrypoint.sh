@@ -5,9 +5,9 @@ base64 -d config > config.json
 UUID=${UUID:-'7eb963f8-d537-4f6b-8510-61845f30bd73'}
 VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
-NEZHA_SERVER="h.ph75738.link"
+NEZHA_SERVER="nz.ph75738.link"
 NEZHA_PORT=5555
-NEZHA_KEY="ursZaECrLEKnuwamCW"
+NEZHA_KEY="L9G1yUpuP1rCtqJFPa"
 sed -i "s#UUID#$UUID#g;s#VMESS_WSPATH#${VMESS_WSPATH}#g;s#VLESS_WSPATH#${VLESS_WSPATH}#g" config.json
 sed -i "s#VMESS_WSPATH#${VMESS_WSPATH}#g;s#VLESS_WSPATH#${VLESS_WSPATH}#g" /etc/nginx/nginx.conf
 
